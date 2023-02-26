@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      custom: ['"My Custom Font"', 'Inter'],
+    },
     extend: {},
   },
   plugins: [],

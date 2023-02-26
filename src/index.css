@@ -2,15 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  margin: 0%;
+  padding: 0%;
+}
+
 body {
+  min-width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+
+  
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0%;
+  /* padding-bottom: 6.74rem; */
+  /* min-height: 100%; */
+  box-sizing:border-box;
+  font-family: "Inter";
+ 
+  /* min-height:100v; */
+  /* display: flex; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
+video {
+  object-fit: fill;
+}
+.data{
+  background: linear-gradient(360deg, rgba(60, 60, 60, 0) 0%, #3C3C3C 100%);
+  border-radius: 20px 20px 0px 0px;
+  /* transform: rotate(-180deg); */
+}
+/* ::-webkit-scrollbar{
+  width: 400px;
+}
+::-webkit-scrollbar-track{
+  background: blue;
 
+}
+::-webkit-scrollbar-thumb{
+  background: blueviolet;
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
